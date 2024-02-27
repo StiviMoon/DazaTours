@@ -16,7 +16,7 @@ const CityTours = () => {
           b="Transporte"
           c="Desayuno, Almuerzo, Refrigerio"
           d="Duracion: 12Hrs"
-          precio="$ 750 USD"
+          precio="$ 89.000 COP"
         />
         <BookingCard
           imageSrc={cali}
@@ -27,7 +27,7 @@ const CityTours = () => {
           b="Transporte"
           c="Desayuno, Almuerzo, Refrigerio"
           d="Duracion: 12Hrs"
-          precio="$ 550 USD"
+          precio="$ 80.000 COP"
         />
         <BookingCard
           imageSrc={cartagena}
@@ -38,7 +38,7 @@ const CityTours = () => {
           b="Transporte"
           c="Desayuno, Almuerzo, Refrigerio"
           d="Duracion: 12Hrs"
-          precio="$ 950 USD"
+          precio="$ 100.000 COP"
           
         />
       </div>

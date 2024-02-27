@@ -19,7 +19,7 @@ const MedellinT = () => {
           b="Transporte"
           c="Desayuno, Almuerzo, BBQ"
           d="Duracion: 24Hrs"
-          precio="$ 850 USD"
+          precio="$ 250.000 COP"
         />
         <BookingCard
           imageSrc={piedra}
@@ -30,7 +30,7 @@ const MedellinT = () => {
           b="Transporte"
           c="Almuerzo"
           d="Duracion: 5Hrs"
-          precio="$ 550 USD"
+          precio="$ 110.000 COP"
         />
         <BookingCard
           imageSrc={guitarra}
@@ -41,7 +41,7 @@ const MedellinT = () => {
           b="Transporte"
           c="Almuerzo, Refrigerio"
           d="Duracion: 6Hrs"
-          precio="$ 450 USD"
+          precio="$ 99.000 COP"
         />
 
       </div>

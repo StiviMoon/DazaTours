@@ -8,7 +8,7 @@ import montañas from "../../../Img/sitios/montañas.jpg";
 const CaliT = () => {
   return (
     
-      <div className="flex flex-wrap justify-center">
+      <div className="flex flex-wrap justify-center">S
         <BookingCard
           imageSrc={tactito}
           title="Pack Tactico Poligo / Cali"
@@ -18,7 +18,7 @@ const CaliT = () => {
           b="Rapel"
           c="Desayuno, Almuerzo, Refrigerio"
           d="Duracion: 48Hrs"
-          precio="$ 750 USD"
+          precio="$ 600.000 COP"
         />
          <BookingCard
           imageSrc={montañas}
@@ -29,7 +29,7 @@ const CaliT = () => {
           b="Transporte"
           c="Desayuno, Almuerzo, Refrigerio"
           d="Duracion: 48Hrs"
-          precio="$ 680 USD"
+          precio="$ 110.000 COP"
 
         />
          <BookingCard
@@ -41,7 +41,7 @@ const CaliT = () => {
           b="Tarjeta Medica"
           c="Desayuno, Almuerzo, Refrigerio"
           d="Duracion: 48Hrs"
-          precio="$ 850 USD"
+          precio="$ 130.000 COP"
         />
 
       </div>

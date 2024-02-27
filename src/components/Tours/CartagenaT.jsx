@@ -18,7 +18,7 @@ const CartagenaT = () => {
           b="Castillo de San Felipe de Barajas"
           c="Entradas a las atracciones turísticas"
           d="Duracion: 5Hrs"
-          precio="$ 650 USD"
+          precio="$ 85.000 COP"
           
         />
         <BookingCard
@@ -30,7 +30,7 @@ const CartagenaT = () => {
           b="Equipo de snorkel"
           c="Almuerzo típico caribeño en una de las islas."
           d="Duracion: 6Hrs"
-          precio="$ 850 USD"
+          precio="$ 150.000 COP"
           
         />
         <BookingCard
@@ -42,7 +42,7 @@ const CartagenaT = () => {
           b="Cultura culinaria de Colombia"
           c="Bebidas tradicionales colombianas incluidas"
           d="Duracion: 5Hrs"
-          precio="$ 750 USD"
+          precio="$ 75.000 COP"
           
         />
 
