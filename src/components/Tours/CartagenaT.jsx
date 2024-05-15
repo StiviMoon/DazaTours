@@ -15,8 +15,8 @@ const CartagenaT = () => {
         a="Historia y la arquitectura colonial"
         b="Castillo de San Felipe de Barajas"
         c="Entradas a las atracciones turísticas"
-        d="Duracion: 5 Hrs"
-        precio="$ 30 USD"
+        d="Duracion: 5Hrs"
+        precio="$ 650 USD"
       />
       <BookingCard
         imageSrc={islas}
@@ -26,8 +26,8 @@ const CartagenaT = () => {
         a="Transporte en barco"
         b="Equipo de snorkel"
         c="Almuerzo típico caribeño en una de las islas."
-        d="Duracion: 6 Hrs"
-        precio="$ 26 USD"
+        d="Duracion: 6Hrs"
+        precio="$ 850 USD"
       />
       <BookingCard
         imageSrc={cartagenaP}
@@ -37,8 +37,8 @@ const CartagenaT = () => {
         a="Degustación de platos"
         b="Cultura culinaria de Colombia"
         c="Bebidas tradicionales colombianas incluidas"
-        d="Duracion: 5 Hrs"
-        precio="$ 23 USD"
+        d="Duracion: 5Hrs"
+        precio="$ 750 USD"
       />
     </div>
   );
