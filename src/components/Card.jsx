@@ -5,13 +5,19 @@ import {
   CardFooter,
   Typography,
   Button,
-  Tooltip,
-  IconButton,
 } from "@material-tailwind/react";
 
-
-
-export default function BookingCard({ imageSrc, title, rating, description,precio,a,b,c,d}) {
+export default function BookingCard({
+  imageSrc,
+  title,
+  rating,
+  description,
+  precio,
+  a,
+  b,
+  c,
+  d,
+}) {
   // Función para abrir un enlace de WhatsApp con un texto predefinido
   const openWhatsApp = () => {
     const message = encodeURIComponent("¡Hola! Me gustaría hacer una reserva.");
@@ -19,13 +25,15 @@ export default function BookingCard({ imageSrc, title, rating, description,preci
     window.open(whatsappURL, "_blank");
   };
 
-
   return (
     <Card className="w-full max-w-[26rem] shadow-lg m-5 mt-10 transition-transform transform-gpu hover:scale-105 ">
       <CardHeader floated={false} color="blue-gray">
-        <img src={imageSrc} alt={title} className="h-[350px] w-full object-cover "/>
+        <img
+          src={imageSrc}
+          alt={title}
+          className="h-[350px] w-full object-cover "
+        />
         <div className="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-tr from-transparent via-transparent to-black/60 " />
-       
       </CardHeader>
       <CardBody>
         <div className="mb-3 flex items-center justify-between">
@@ -51,22 +59,30 @@ export default function BookingCard({ imageSrc, title, rating, description,preci
             {rating}
           </Typography>
         </div>
-        <Typography color="gray" className="pb-4">{description}</Typography>
+        <Typography color="gray" className="pb-4">
+          {description}
+        </Typography>
 
         <div className="flex flex-col font-bold text-scuba_blue">
-          <li >{a}</li>
-          <li >{b}</li>
-          <li >{c}</li>
-          <li >{d}</li>
+          <li>{a}</li>
+          <li>{b}</li>
+          <li>{c}</li>
+          <li>{d}</li>
         </div>
-        
-        <Typography  className="pt-4 text-xl text-end text-verde_o">{precio}</Typography>
+
+        <Typography className="pt-4 text-xl text-end text-verde_o">
+          {precio}
+        </Typography>
       </CardBody>
       <CardFooter className="pt-3">
-        <Button size="lg" fullWidth={true} className="m-1 text-1xl " onClick={openWhatsApp}>
+        <Button
+          size="lg"
+          fullWidth={true}
+          className="m-1 text-1xl "
+          onClick={openWhatsApp}
+        >
           Reserve
         </Button>
-
       </CardFooter>
     </Card>
   );
