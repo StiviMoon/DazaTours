@@ -7,10 +7,14 @@ import RedesSociales from "../components/Redes.jsx";
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
 
+  const handleLinkClick = () => {
+    setShowMenu(false);
+  };
+
   return (
     <header className="flex items-center justify-between xl:start w-full py-4 px-8 h-[10vh] z-50 bg-azul_o">
       <div className="w-auto text-center">
-        <NavLink to="/inicio">
+        <NavLink to="/inicio" onClick={handleLinkClick}>
           <img src={logo} alt="LOGO Daza" className="w-[35px] cursor-pointer" />
         </NavLink>
       </div>
@@ -36,6 +40,7 @@ const Header = () => {
               ? "text-white border-b-2 border-scuba_blue"
               : "text-white hover:text-scuba_blue"
           }
+          onClick={handleLinkClick}
         >
           Inicio
         </NavLink>
@@ -46,6 +51,7 @@ const Header = () => {
               ? "text-white border-b-2 border-scuba_blue"
               : "text-white hover:text-blue-200"
           }
+          onClick={handleLinkClick}
         >
           Nosotros
         </NavLink>
@@ -56,6 +62,7 @@ const Header = () => {
               ? "text-white border-b-2 border-scuba_blue"
               : "text-white hover:text-blue-200"
           }
+          onClick={handleLinkClick}
         >
           Destinos
         </NavLink>
@@ -66,6 +73,7 @@ const Header = () => {
               ? "text-white border-b-2 border-scuba_blue"
               : "text-white hover:text-blue-200"
           }
+          onClick={handleLinkClick}
         >
           Paquetes Turísticos
         </NavLink>
@@ -76,6 +84,7 @@ const Header = () => {
               ? "text-white border-b-2 border-scuba_blue"
               : "text-white hover:text-blue-200"
           }
+          onClick={handleLinkClick}
         >
           Experiencias
         </NavLink>
