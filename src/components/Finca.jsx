@@ -10,11 +10,11 @@ const Finca = () => {
     window.open(whatsappURL, "_blank");
   };
   return (
-    <section className="bg-white dark:bg-gray-900 p-10">
+    <section className="bg-white dark:bg-gray-900 sm:text-justify text-center p-5 sm:p-10">
       <div className="container flex flex-col items-center px-4 py-12 mx-auto xl:flex-row">
         <div className="flex justify-center xl:w-1/2">
           <img
-            className="h-80 w-80 sm:w-[28rem] sm:h-[28rem] flex-shrink-0 object-cover rounded-full"
+            className="m-2 p-4 h-80 w-80 sm:w-[28rem] sm:h-[28rem] flex-shrink-0 object-cover rounded-full"
             src={envigado}
             alt="App"
           />
