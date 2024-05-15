@@ -15,8 +15,8 @@ const MedellinT = () => {
         a="Pasadia Turistico"
         b="Transporte"
         c="Desayuno, Almuerzo, BBQ"
-        d="Duracion: 24Hrs"
-        precio="$ 850 USD"
+        d="Duracion: 24 Hrs"
+        precio="$ 100.000 COP"
       />
       <BookingCard
         imageSrc={piedra}
@@ -26,19 +26,19 @@ const MedellinT = () => {
         a="Pasadia Turistico"
         b="Transporte"
         c="Almuerzo"
-        d="Duracion: 5Hrs"
-        precio="$ 550 USD"
+        d="Duracion: 5 Hrs"
+        precio="$ 35.000 COP"
       />
       <BookingCard
-        imageSrc={guitarra}
+        imageSrc={c13}
         title="Comuna 13"
         rating="5.0"
         description="Embárcate en una emocionante caminata por la Comuna 13 en Medellín y sumérgete en su fascinante cultura. Explora sus vibrantes murales, conoce a los talentosos artistas locales y disfruta de la deliciosa gastronomía mientras aprendes sobre la transformación social de esta comunidad."
         a="Pasadia Turistico"
         b="Transporte"
         c="Almuerzo, Refrigerio"
-        d="Duracion: 6Hrs"
-        precio="$ 450 USD"
+        d="Duracion: 6 Hrs"
+        precio="$ 25.000 COP"
       />
     </div>
   );

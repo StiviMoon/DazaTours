@@ -14,8 +14,8 @@ const CaliT = () => {
         a="Poligono"
         b="Rapel"
         c="Desayuno, Almuerzo, Refrigerio"
-        d="Duracion: 48Hrs"
-        precio="$ 750 USD"
+        d="Duracion: 12 Hrs"
+        precio="$ 250 USD"
       />
       <BookingCard
         imageSrc={montañas}
@@ -25,8 +25,8 @@ const CaliT = () => {
         a="Dapa, Cumbre, Restrepo, Darien"
         b="Transporte"
         c="Desayuno, Almuerzo, Refrigerio"
-        d="Duracion: 48Hrs"
-        precio="$ 680 USD"
+        d="Duracion: 6 Hrs"
+        precio="$ 30 USD"
       />
       <BookingCard
         imageSrc={guacamaya}
@@ -36,8 +36,8 @@ const CaliT = () => {
         a="Parapente (Opcional)"
         b="Tarjeta Medica"
         c="Desayuno, Almuerzo, Refrigerio"
-        d="Duracion: 48Hrs"
-        precio="$ 850 USD"
+        d="Duracion: 8 Hrs"
+        precio="$ 20 USD"
       />
     </div>
   );
