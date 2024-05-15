@@ -24,17 +24,11 @@ const PaginaCity = () => {
 
       <img src={nosotrosT} alt="nosotros" />
 
-      <div className=" p-10">
-        <MedellinT />
-      </div>
+      <MedellinT />
 
-      <div className="p-10">
-        <CaliT />
-      </div>
+      <CaliT />
 
-      <div className="p-10">
-        <CartagenaT />
-      </div>
+      <CartagenaT />
     </section>
   );
 };

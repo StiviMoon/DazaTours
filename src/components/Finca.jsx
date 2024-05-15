@@ -21,10 +21,10 @@ const Finca = () => {
         </div>
         <div className="flex flex-col items-center mt-6 xl:items-start xl:w-1/2 xl:mt-0">
           <h2 className="text-3xl font-semibold tracking-tight text-azul_o xl:text-4xl dark:text-white">
-            Disfruta de un Día Inolvidable en la Finca Enbigado, Medellín
+            Disfruta de un Día Inolvidable en la Finca Envigado, Medellín
           </h2>
           <p className="block max-w-2xl mt-4 text-lg text-azul_o dark:text-gray-300">
-            ¡Ven y vive una experiencia única en la Finca Enbigado!{" "}
+            ¡Ven y vive una experiencia única en la Finca Envigado!{" "}
             <span className=" font-bold ">Por solo $ 100.000 pesos</span>, con
             transporte incluido, te ofrecemos un día lleno de actividades
             emocionantes y diversión para todos.

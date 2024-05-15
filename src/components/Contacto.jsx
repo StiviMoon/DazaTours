@@ -5,10 +5,8 @@ const ContactSection = () => {
     <section className="bg-white dark:bg-gray-900 pb-10">
       <div className="container px-6 py-12 mx-auto">
         <div className="text-center">
-          <p className="font-medium text-blue-500 dark:text-blue-400">
-            Contact us
-          </p>
-          <h1 className="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl dark:text-white">
+          <p className="font-medium text-azul_o dark:text-azul_o">Contact us</p>
+          <h1 className="mt-2 text-2xl font-semibold text-mostaza  md:text-3xl dark:text-white">
             Get in touch
           </h1>
           <p className="mt-3 text-gray-500 dark:text-gray-400">
@@ -35,7 +33,7 @@ const ContactSection = () => {
             }
             title="Email"
             description="Our friendly team is here to help."
-            contactInfo="hello@merakiui.com"
+            contactInfo="dazaturs@gmail.com "
           />
           <ContactItem
             icon={
@@ -60,8 +58,8 @@ const ContactSection = () => {
               </svg>
             }
             title="Office"
-            description="Come say hello at our office HQ."
-            contactInfo="100 Smith Street Collingwood VIC 3066 AU"
+            description="Medellín, Antioquia"
+            contactInfo="Av. Carabobo, La Candelaria, Medellín"
           />
           <ContactItem
             icon={
@@ -81,8 +79,8 @@ const ContactSection = () => {
               </svg>
             }
             title="Phone"
-            description="Mon-Fri from 8am to 5pm."
-            contactInfo="+1 (555) 000-0000"
+            description="Horario 8 am  8 pm."
+            contactInfo="+57 304 544-9727"
           />
         </div>
       </div>
